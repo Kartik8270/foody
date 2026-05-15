@@ -134,7 +134,7 @@ class HomePage extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            SizedBox(child: Image.asset("images/salad3.png"),height: 100,width: 100),
+                            SizedBox(height: 100,width: 100, child: Image.asset("images/salad3.png")),
                             SizedBox(height: 30),
                             Text(
                               "Special Salad",
@@ -160,7 +160,7 @@ class HomePage extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            SizedBox(child: Image.asset("images/salad2.png"),height: 100,width: 100),
+                            SizedBox(height: 100,width: 100, child: Image.asset("images/salad2.png")),
                             SizedBox(height: 30),
                             Text(
                               "Punjabi Salad",
@@ -196,7 +196,7 @@ class HomePage extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            SizedBox(child: Image.asset("images/salad3.png"),height: 100,width: 100),
+                            SizedBox(height: 100,width: 100, child: Image.asset("images/salad3.png")),
                             SizedBox(height: 30),
                             Text(
                               "Russian Salad",
@@ -222,7 +222,7 @@ class HomePage extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            SizedBox(child: Image.asset("images/salad4.png"),height: 100,width: 100),
+                            SizedBox(height: 100,width: 100, child: Image.asset("images/salad4.png")),
                             SizedBox(height: 30),
                             Text(
                               "Amritsari Salad",

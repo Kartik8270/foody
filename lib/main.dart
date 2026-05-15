@@ -1,25 +1,28 @@
 import 'package:flutter/material.dart';
-import 'package:foody/pages/Bottom_Nav.dart';
-import 'package:foody/pages/login.dart';
-import 'package:foody/pages/signup.dart';
-import 'pages/home.dart';
 import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+import 'package:foody/pages/signup.dart';
+
+void main() async {
+
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp();
+
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  MyApp() {
-    WidgetsFlutterBinding.ensureInitialized();
-    Firebase.initializeApp();
-    runApp(const MyApp());
-  }
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
-      home: SignUpPage(),
+
+      debugShowCheckedModeBanner: false,
+
+      home: const SignUpPage(),
     );
   }
 }

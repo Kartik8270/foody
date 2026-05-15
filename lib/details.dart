@@ -1,4 +1,3 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:foody/widgets/widget_support.dart';
 
@@ -12,6 +11,7 @@ class Details extends StatefulWidget {
 class _DetailsState extends State<Details> {
   @override
   int a = 1;
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
@@ -142,12 +142,12 @@ class _DetailsState extends State<Details> {
                       ),
                       SizedBox(width: 20,),
                       Container(
+                        decoration: BoxDecoration(color: Colors.grey),
                         child: Icon(
                           Icons.shopping_cart,
                           color: Colors.white,
                           size: 16,
                         ),
-                        decoration: BoxDecoration(color: Colors.grey),
                       ),
                     ],
                   ),
