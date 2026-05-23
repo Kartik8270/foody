@@ -8,11 +8,11 @@ A modern food delivery mobile application built with a clean, intuitive UI. Quic
 
 | Sign Up | Login | Home |
 |--------|-------|------|
-| ![Sign Up](screenshots/signup.png) | ![Login](screenshots/login.png) | ![Home](screenshots/home.png) |
+| ![Sign Up](signup.png) | ![Login](login.png) | ![Home](home.png) |
 
 | Item Detail | Wallet |
 |-------------|--------|
-| ![Item Detail](screenshots/item_detail.png) | ![Wallet](screenshots/wallet.png) |
+| ![Item Detail](item_detail.png) | ![Wallet](wallet.png) |
 
 ---
 
