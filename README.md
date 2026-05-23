@@ -182,7 +182,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 👨‍💻 Author
 
 **Kartik**
-- GitHub: [@your-username](https://github.com/your-username)
+- GitHub: [@Kartik8270](https://github.com/Kartik8270)
 
 ---
 
